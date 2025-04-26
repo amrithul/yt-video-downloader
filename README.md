@@ -1,4 +1,4 @@
-# Flask YouTube Downloader
+# YouTube Video & Audio Downloader
 
 A simple web application built with Flask (Python) and vanilla JavaScript to download YouTube videos and audio streams, including merging separate high-quality streams.
 
