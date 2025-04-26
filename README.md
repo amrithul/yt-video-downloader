@@ -63,6 +63,7 @@ Before you begin, ensure you have the following installed on the machine where y
     * Open the `index.html` file directly in your web browser (e.g., by double-clicking it or using `file:///path/to/project/index.html`).
 
 ## File Structure
+
 ├── venv/                  # Virtual environment (ignored by git)
 ├── app.py                 # Flask backend logic
 ├── index.html             # Frontend HTML structure
