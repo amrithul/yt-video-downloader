@@ -1,5 +1,5 @@
 // Configuration
-const BACKEND_URL = 'http://127.0.0.1:5000'; // Your Flask backend URL
+const BACKEND_URL = 'https://youtube-video-downloader-jgz9.onrender.com'; // Your Flask backend URL
 
 // DOM Elements Cache
 const elements = {
