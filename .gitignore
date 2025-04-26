@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+*/venv/
+env/
+*/env/
+.venv/
+*/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Instance Folder (Flask)
+instance/
+*/instance/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Sensitive Files (If applicable locally)
+# cookies.txt # Uncomment if you use a local cookie file for testing
+# .env # Uncomment if you use environment variables locally
