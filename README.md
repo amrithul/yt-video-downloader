@@ -7,7 +7,7 @@ A simple web application built with Flask (Python) and vanilla JavaScript to dow
 
 * Paste YouTube video URL (supports standard formats, Shorts, potentially playlists depending on backend logic).
 * Fetches available video and audio formats.
-* Displays format details (Quality, Extension, Size, FPS, No Audio indicator).
+* Displays format details (Quality, Extension, Size, FPS).
 * Filters formats based on quality (All, HD, 4K for video; All, High for audio).
 * Handles downloading of separate high-quality video and audio streams by **merging them on the server** using `yt-dlp` and `ffmpeg`.
 * Provides download with the video title as the filename.
@@ -35,9 +35,10 @@ Before you begin, ensure you have the following installed on the machine where y
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
     cd YOUR_REPOSITORY_NAME
     ```
+    *(Replace `YOUR_USERNAME/YOUR_REPOSITORY_NAME` with your actual GitHub details)*
 
 2.  **Create a Virtual Environment:** (Recommended)
     ```bash
@@ -63,14 +64,19 @@ Before you begin, ensure you have the following installed on the machine where y
     * Open the `index.html` file directly in your web browser (e.g., by double-clicking it or using `file:///path/to/project/index.html`).
 
 ## File Structure
-├── venv/                  # Virtual environment (ignored by git)
-├── app.py                 # Flask backend logic
-├── index.html             # Frontend HTML structure
-├── app.js                 # Frontend JavaScript logic
-├── style.css              # Frontend CSS styles
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-└── .gitignore             # Files/folders ignored by git
+
+```text
+flask-youtube-downloader/   <-- This is your main project folder (Project Root)
+├── venv/                   <-- Your virtual environment (ignored by git)
+├── app.py                  <-- Flask backend logic
+├── index.html              <-- Frontend HTML structure
+├── app.js                  <-- Frontend JavaScript logic
+├── style.css               <-- Frontend CSS styles
+├── requirements.txt        <-- Python dependencies
+├── README.md               <-- This file
+└── .gitignore              <-- Files/folders ignored by git
+```
+
 
 ## Configuration
 
