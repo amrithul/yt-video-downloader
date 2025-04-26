@@ -64,14 +64,15 @@ Before you begin, ensure you have the following installed on the machine where y
 
 ## File Structure
 
-├── venv/                  # Virtual environment (ignored by git)
-├── app.py                 # Flask backend logic
-├── index.html             # Frontend HTML structure
-├── app.js                 # Frontend JavaScript logic
-├── style.css              # Frontend CSS styles
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-└── .gitignore             # Files/folders ignored by git
+flask-youtube-downloader/   <-- This is your main project folder (Project Root)
+├── venv/                   <-- Your virtual environment (ignored by git)
+├── app.py                  <-- Flask backend
+├── index.html              <-- Main HTML page
+├── app.js                  <-- External JavaScript
+├── style.css               <-- External CSS
+├── requirements.txt        <-- Python dependencies
+├── README.md               <-- Project documentation
+└── .gitignore              <-- Files/folders for git to ignore
 
 ## Configuration
 
